@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        li{
+            list-style: none;
+            color: white;
+        }
+
+        img{
+            width: 70px;
+            height: 70px;
+            background-color: inherit;
+        }
+        .bord{
+            border: 1px solid black;
+        }
+        .sizeFirstLi{
+            width: 70px;
+            height: 70px;
+            text-align: center;
+            line-height: 70px;
+        }
+        .sizeLiLi{
+            width: 155px;
+            text-align: center;
+        }
+        .margLiLi{
+            margin-top: -74px;
+            margin-left: 30px;
+            line-height: 70px;
+
+        }
+        .sizeLi{
+            height: 70px;
+            width: 70px;
+        }
+        .sizeFirstLiLi{
+            margin-top: -70px;
+            margin-left: 30px;
+            height: 70px;
+            width: 155px;
+        }
+        .sizeLastLi{
+            height: 210px;
+            width: 70px;
+        }
+        .sizeLastLiLi {
+            height: 210px;
+            width: 155px;
+            margin-left: 30px;
+        }
+        .none{
+            transition-duration: 1s;
+            opacity: 0;
+            visibility: hidden;
+        }
+        menu:hover .none{
+            transition-duration: 1s;
+            transition-property: opacity;
+            opacity: 1;
+            visibility: visible;
+        }
+        li.sizeLi:hover{
+            background-color: rgb(105,105,105);
+        }
+        .sizeLi:hover li{
+            background-color:rgb(105,105,105) ;
+        }
+        menu>li>ul>li{
+            background-color: rgb(138,138,138);
+        }
+        menu>li{
+            background-color: rgb(138,138,138);
+        }
+        .sizeMenu{
+            width: 230px;
+        }
+        nav{
+            position: fixed;
+            float: left;
+            margin-top: -45px;
+        }
+        body{
+            background-color: rgb(246,246,246);
+            font-family: Arial,sans-serif;
+        }
+        .marg1{
+            margin-left: 170px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+<nav>
+    <menu class="sizeMenu">
+        <li class="sizeFirstLi">MENU
+            <ul>
+                <li class="sizeFirstLiLi none"></li>
+            </ul>
+        </li>
+
+        <li class="sizeLi"><img src="icons/edit.png" alt="">
+            <ul>
+                <li class="sizeLiLi margLiLi none">EDIT</li>
+            </ul>
+        </li>
+
+        <li class="sizeLi"><img src="icons/favorites.png" alt="">
+            <ul>
+                <li class="sizeLiLi margLiLi none">FAVORITES</li>
+            </ul>
+        </li>
+        <li class="sizeLi"><img src="icons/history.png" alt="">
+            <ul>
+                <li class="sizeLiLi margLiLi none">HISTORY</li>
+            </ul>
+        </li>
+        <li class="sizeLi"><img src="icons/security.png" alt="">
+            <ul>
+                <li class="sizeLiLi margLiLi none">SECURITY</li>
+            </ul>
+        </li>
+        <li class="sizeLi"><img src="icons/settings.png" alt="">
+            <ul>
+                <li class="sizeLiLi margLiLi none">SETTINGS</li>
+            </ul>
+        </li>
+        <li class="sizeLastLi">
+            <ul>
+                <li class="sizeLastLiLi none"></li>
+            </ul>
+        </li>
+
+    </menu>
+</nav>
+<h1 class="marg1">WHAT IS LOREM IPSUM?</h1>
+<p class="marg1"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Architecto asperiores atque blanditiis consequatur dolores earum excepturi fuga illo
+    incidunt ipsam mollitia neque, nesciunt non omnis quam quis quo sit voluptas?</span><span>A
+    accusamus, ad animi asperiores beatae consequatur culpa cumque, ducimus illum magni maiores minus,
+    odit officiis omnis optio pariatur quae ullam veritatis. Blanditiis cum est ex id illo, officiis quidem.</span><span>
+    Blanditiis cupiditate delectus dolorem dolores enim eveniet facilis, fuga illo ipsum iste laboriosam minus molestiae
+    nemo obcaecati odit perspiciatis qui quidem repellat repellendus rerum saepe sed soluta veritatis vero, voluptate!</span>
+    <span>Est minus optio perferendis quos repellat, suscipit voluptate. Accusantium asperiores at, consectetur, consequatur
+        corporis cum dolor dolores modi mollitia nisi optio perspiciatis, quam repudiandae! Autem eius minima mollitia sunt
+        tempora?</span></p>
+<h1 class="marg1">WHY DO USE IT?</h1>
+<p class="marg1"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam debitis deserunt error
+    exercitationem, hic mollitia nam necessitatibus nesciunt, nulla odio, officia omnis quas quidem
+    quisquam sunt veniam veritatis vero voluptatibus.</span><span>Consequatur deleniti dolorum enim
+    libero minima neque omnis placeat possimus suscipit tempore! Adipisci aliquid, atque corporis
+    dignissimos dolores doloribus facilis, itaque minima nam odio perferendis praesentium quae,
+    sed sunt temporibus.</span><span>Animi assumenda aut dicta fugit id illo, modi molestiae
+    molestias nihil, non omnis perspiciatis quia quibusdam sequi tempore veritatis vitae! Assumenda
+    dolor id laudantium, molestias possimus quo unde voluptas voluptate.</span><span>Animi consequuntur
+    corporis dolore dolorem et eum, minima molestiae nesciunt nihil quia quidem quos sapiente, voluptatibus.
+    Accusamus aperiam at blanditiis corporis, debitis dicta, eius esse ipsam modi odio quae sunt.</span></p>
+<h1 class="marg1">WHERE DOES IT COME FROM?</h1>
+<p class="marg1"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor excepturi inventore
+    itaque minima nobis suscipit? Autem deserunt et, magni maiores minus necessitatibus
+    nesciunt obcaecati odio optio rem sequi velit vitae.</span><span>Adipisci corporis eveniet incidunt itaque
+    laudantium neque nihil officia perspiciatis quasi. Alias at debitis, delectus dicta dolorum enim, excepturi
+    fuga, magnam nemo nobis omnis quia sit tempora totam voluptatem voluptatibus?</span><span>Asperiores distinctio
+    facilis nemo nulla sint. Aliquid blanditiis consequuntur culpa dicta, doloribus dolorum eaque eius fugiat hic impedit
+    inventore ipsum magnam minus, necessitatibus officiis pariatur possimus, quas ratione recusandae
+    ut!</span><span>Dolore enim est fuga minus molestias neque nostrum provident ratione reiciendis. Animi consectetur,
+    cumque distinctio eius facilis ipsam, magni minima modi nisi, omnis optio quia quod ratione reprehenderit
+    soluta voluptatem!</span><span>Consequuntur excepturi incidunt magni modi quibusdam quos repellat, suscipit
+    velit? Aliquid beatae consequatur esse exercitationem explicabo inventore ipsam, labore laudantium non nostrum
+    omnis optio pariatur praesentium quas quisquam repellendus vero.</span><span>Accusamus amet at atque blanditiis
+    debitis dignissimos doloribus, eligendi eos, fuga harum hic id ipsa ipsum magnam magni nostrum optio perferendis
+    quam qui quo sed similique temporibus totam vero voluptate?</span><span>Amet aspernatur culpa expedita explicabo
+    nihil odio quos. Fugiat incidunt numquam quae sequi ut, veniam. Aliquid consequatur dicta esse labore porro.
+    A assumenda blanditiis repellat sint veritatis. Et, magnam possimus.</span><span>Ab adipisci atque blanditiis
+    cum deserunt eaque eos excepturi exercitationem impedit incidunt inventore ipsam minima nam natus nihil nisi
+    obcaecati quam quisquam rem reprehenderit, repudiandae sapiente totam voluptatum. Labore, molestiae?</span></p>
+<h1 class="marg1">WHERE CAN I GET SOME?</h1>
+<p class="marg1"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A asperiores dolorem inventore unde
+    veritatis. Architecto cumque deserunt doloremque excepturi, in iste, minima nostrum quos ratione sed sint, tempora
+    temporibus velit.</span><span>Ad aperiam enim ipsa minus officia quas quos sequi. Amet beatae ea illum omnis optio
+    quo quod sit veritatis voluptates? Asperiores dicta earum, error libero necessitatibus quod rem reprehenderit vel.
+</span><span>Cum dolorem esse fugiat fugit maxime mollitia, nisi omnis quo ratione tempore, tenetur vel vitae! Ab consequatur
+    distinctio ducimus eaque esse illum inventore maxime quia, rem sed suscipit temporibus veniam?</span><span>Assumenda
+    delectus deleniti, deserunt enim et explicabo modi molestiae nobis numquam officiis reiciendis voluptatem. Atque est
+    in iure neque nesciunt quod saepe? Culpa iste odit optio provident qui quisquam unde.</span><span>Aliquam, aliquid
+    aperiam architecto at deserunt ducimus eaque ex illum ipsam ipsum itaque magni mollitia odit optio quae quibusdam
+    rerum sequi sint tempore ullam ut velit veritatis! Est, ipsum nihil.</span><span>A, ad autem culpa dolorum ducimus
+    esse explicabo fugiat illum laborum maiores maxime, minima quod recusandae. Ab cumque distinctio eius illum, inventore
+    ipsam odit, quo sapiente sed vel veniam, vitae.</span><span>Amet distinctio eaque facilis iure laborum officiis possimus
+    quia saepe sunt vero. Adipisci architecto dolore explicabo laudantium nihil nisi pariatur ullam voluptatum! A adipisci
+    corporis iusto laborum non obcaecati quaerat.</span><span>Accusamus aliquid consequuntur distinctio dolores ducimus error
+    excepturi iste laudantium libero nisi nostrum omnis praesentium, saepe? Aperiam beatae dicta eligendi, expedita explicabo
+    illum in libero maxime pariatur praesentium soluta, voluptatibus!</span></p>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
